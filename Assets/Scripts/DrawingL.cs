@@ -67,7 +67,7 @@ public class DrawingL : MonoBehaviour
  
     void EndLine() //rotaciona a linha desenhada pelo player, torcando a posição dela para o quadrado
     {
-        lineRenderer.transform.Rotate (0,0,*Time.deltaTime, Space.Self);
+        Square.transform.Rotate (0,0,-100*Time.deltaTime, Space.Self);
         lineRenderer.transform.position = new Vector2(Square.transform.position.x, Square.transform.position.y);
     }
 }

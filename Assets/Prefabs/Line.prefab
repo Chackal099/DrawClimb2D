@@ -221,7 +221,7 @@ WheelJoint2D:
   m_Enabled: 1
   serializedVersion: 4
   m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 3256918282214585304, guid: 505a1fde5dbe9294691fa67725ece0da, type: 3}
+  m_ConnectedRigidBody: {fileID: 9092370991844383103, guid: 505a1fde5dbe9294691fa67725ece0da, type: 3}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
